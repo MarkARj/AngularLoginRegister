@@ -1,0 +1,44 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+<mat-card  class="box">
+    <mat-card-header>
+      <mat-card-title>Data Monitoring</mat-card-title>
+      <mat-card-subtitle>Interactive Graphs</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://cdn0.iconfinder.com/data/icons/infographic-bar-vol-9/512/1-512.png" >
+    <mat-card-content>
+      <p>
+        Graphs are a common method to visually illustrate relationships in the data. 
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="box" style="margin-right: 10px;margin-left: 10px;">
+    <mat-card-header>
+      <mat-card-title>Upload Files</mat-card-title>
+      <mat-card-subtitle>Supported : Excel Files </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_excel-512.png" alt="Photo of Excel Icon">
+    <mat-card-content>
+      <p>
+        Hit the upload button below to start uploading your files
+      </p>
+    </mat-card-content>
+    <mat-card-actions style="text-align: center;">
+      <button mat-button (click)="router.navigate(['/Upload'])" >Upload</button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Account Management</mat-card-title>
+      <mat-card-subtitle>Already have an account ?Log In</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image style="scale: 0.75%;" src="https://assets.materialup.com/uploads/8c9439b5-d9c0-42bb-81b3-5ea04b1df37d/preview">
+    <mat-card-actions style="text-align: center;">
+        <button mat-button (click)="router.navigate(['/login'])" >Log In</button>
+        <button mat-button (click)="router.navigate(['/register'])" >Register</button>
+      </mat-card-actions>
+  </mat-card>
+
+  </div>

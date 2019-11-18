@@ -1,0 +1,13 @@
+.example-card {
+    max-width: 150px;
+    margin-left: 10px;
+    width: 150px;
+    height: 350px;
+  }
+  .jumbotron-card {
+    max-height: 150px;
+    max-width: 150px;
+    width: 80%;
+    height: 200px;
+  }
+  
